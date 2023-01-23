@@ -1,3 +1,14 @@
+/**********************************************************
+ * hello -- program to print out "Hello World".           *
+ *     Not an espectially earth-shattering program.       *
+ *                                                        *
+ * Author: Jonathan Moore.                                *
+ *                                                        *
+ * Purpose: Demonstration of a simple program.            *
+ *                                                        *
+ * Usage:                                                 *
+ *      Runs the program and the message appears.         *
+ **********************************************************/
 #include <stdio.h>
 
 int main()
