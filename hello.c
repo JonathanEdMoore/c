@@ -11,8 +11,7 @@
  **********************************************************/
 #include <stdio.h>
 
-int main()
-{
+int main() {
   /* Tell the world hello */
   printf("Hello World\n");
   return 0;
