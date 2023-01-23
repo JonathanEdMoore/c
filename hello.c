@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 int main() {
-  /* Tell the world hello */
-  printf("Hello World\n");
-  return 0;
+    /* Tell the world hello */
+    printf("Hello World\n");
+    return 0;
 }
