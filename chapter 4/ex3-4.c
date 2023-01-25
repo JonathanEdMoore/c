@@ -23,5 +23,5 @@ int main() {
     perimeter = 2 * (height + width); /* Perimeter is equal to height plus width multiplied by 2. */
 
     printf("The rectangle has an area of %d and a perimeter of %d\n", area, perimeter);
-    return (0);
+    return 0;
 }

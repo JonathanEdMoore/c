@@ -21,5 +21,5 @@ int main() {
 	printf("H   H E     L     L     O   O\n");
 	printf("H   H EEEEE LLLLL LLLLL  OOO\n");
 
-	return(0);
+	return 0;
 }

@@ -14,5 +14,5 @@
 
 int main () {
     printf("Jonathan Moore\n03/16/1988\n");
-    return (0);
+    return 0;
 }

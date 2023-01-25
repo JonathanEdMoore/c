@@ -24,5 +24,5 @@ int main() {
     printf("Decimal mistake %f\n", decimal);
     printf("Integer mistake %d\n", integer);
     printf("Character mistake %d\n", character);
-    return (0);
+    return 0;
 }
