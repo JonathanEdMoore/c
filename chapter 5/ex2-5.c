@@ -1,5 +1,5 @@
 /****************************************************************************
- * Exercise 1, Chapter 5 -- program that converts line to Fahrenheit. *
+ * Exercise 2, Chapter 5 -- program that calculates the volume of a sphere. *
  *                                                                          *
  *                                                                          *
  * Author: Jonathan Moore.                                                  *
@@ -11,21 +11,22 @@
  ***************************************************************************/
 
 #include <stdio.h>
+#include <math.h>
 
 char line[100]; /* input line from console */
-int centigrade; /* a centigrade to convert to fahrenheit */
-float fahrenheit;
+int radius; /* the radius to use to calculate the volume */
+const float PI = 3.1415927; /* Setting the constant for Pi */
+float volume;
 
 int main() {
-    printf("Enter a temperature in Centigrade: ");
+    printf("Enter the size of the radius: ");
 
     fgets(line, sizeof(line), stdin);
-    sscanf(line, "%d", &centigrade);
+    sscanf(line, "%d", &radius);
 
-    fahrenheit = (9.0/5 * centigrade) + 32;
+    volume = (4.0/3.0) * PI * pow(radius, 3);
 
-    printf("%d Centigrade is %f Fahrenheit\n", centigrade, fahrenheit);
+    printf("Volume of a sphere with a radius of %d is %f\n", radius, volume);
 
     return 0;
-    
 }
