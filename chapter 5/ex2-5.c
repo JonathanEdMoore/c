@@ -26,7 +26,7 @@ int main() {
 
     volume = (4.0/3.0) * PI * pow(radius, 3);
 
-    printf("Volume of a sphere with a radius of %d is %f\n", radius, volume);
+    printf("The Volume of a sphere with a radius of %d is %f\n", radius, volume);
 
     return 0;
 }
