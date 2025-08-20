@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Debug C Program",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "MIMode": "lldb",
+            "targetArchitecture": "arm64",   // use "x86_64" if you have an Intel Mac
+            "preLaunchTask": "C/C++: gcc build active file",
+            "externalConsole": true
+        }
+    ]
+}
